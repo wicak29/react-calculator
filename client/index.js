@@ -5,6 +5,6 @@ import './styles/main.css';
 
 
 ReactDOM.render(
-	<Frame />, 
+	<Frame />,
 	document.getElementById('app')
 );

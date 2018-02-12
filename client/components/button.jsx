@@ -1,4 +1,5 @@
 import React from 'react'; // import react module
+import PropTypes from 'prop-types';
 
 // create our Button component as a functional component
 const Button = (props) => {
@@ -13,7 +14,7 @@ const Button = (props) => {
 }
 
 // describe our expected props types
-Button.propTypes = {
+Button.PropTypes = {
   type: React.PropTypes.string.isRequired,
   handleClick: React.PropTypes.func.isRequired,
   label: React.PropTypes.string.isRequired
